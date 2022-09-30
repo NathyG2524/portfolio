@@ -37,7 +37,7 @@ export default function Projects() {
                 />
                 
                
-                <div className="px-8 py-10 rounded relative z-10 w-full border-4 border-gray-800  opacity-0 hover:opacity-80 hover:shadow-[inset_30rem_0_0_0] hover:shadow-gray-900 duration-[500ms,900ms] transition-[color,box-shadow] hover:outline hover:outline-offset-2 outline-grey-800 rounded">
+                <div className="px-8 py-10 rounded relative z-10 w-full border-4 border-gray-800  opacity-0 hover:opacity-100 hover:shadow-[inset_30rem_0_0_0] hover:shadow-gray-900 duration-[500ms,900ms] transition-[color,box-shadow] hover:outline hover:outline-offset-2 outline-grey-800 rounded">
                 
                 
 <h2 className="tracking-widest text-2xl title-font font-medium text-green-400 mb-1 font-serif">
