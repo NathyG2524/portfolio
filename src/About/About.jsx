@@ -13,9 +13,8 @@ export default function About() {
             <br className="hidden lg:inline-block   " />Full Stack Developer.
           </h1>
           <p className="mb-8 leading-relaxed">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
-            laborum quasi, incidunt dolore iste nostrum cupiditate voluptas?
-            Laborum, voluptas natus?
+            I am a Software Enginner. Motivated and dynamic Web Developer with a keen focus in web application development, with a
+strong work ethic and innate ability to adapt in ever-changing and challenging environments and playing chess.
           </p>
           <div className="flex justify-center">
             <a

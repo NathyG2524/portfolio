@@ -5,7 +5,7 @@ export default function Contact() {
     <section id="contact" className="relative">
       <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
         <div className="lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
-          <iframe
+          {/* <iframe */}
             width="100%"
             height="100%"
             title="map"
@@ -16,7 +16,7 @@ export default function Contact() {
             style={{ filter: "opacity(0.7)" }}
 
 
-             src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d46784.46474760469!2d38.74676349614835!3d8.984215630716818!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2set!4v1660295360118!5m2!1sen!2set" ></iframe>
+             {/* src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d46784.46474760469!2d38.74676349614835!3d8.984215630716818!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2set!4v1660295360118!5m2!1sen!2set" ></iframe> */}
 
 {/* width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" */}
 
