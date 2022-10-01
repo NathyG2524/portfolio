@@ -13,10 +13,10 @@ export default function App() {
     <>
     
     <div className='font=inter bg:white dark:bg-slate-900 '>
-    <Navbar className="z-100"/>
+    <Navbar className='z-100' />
     <About></About>
     <Skills />
-    <Projects />
+    <Projects className='z-10' />
     <Contact />
     
     </div>

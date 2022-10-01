@@ -33,7 +33,7 @@ export default function Navbar() {
   const customItemClass = `inline-flex items-center  border-0 py-1 px-3 focus:outline-none  rounded text-base mt-4 md:mt-0 dark:hover:bg-gray-700 `
   return (
     <>
-      <header className="bg-white dark:bg-slate-900 md:sticky top-0 z-10">
+      <header className="bg-white dark:bg-slate-900 md:sticky lg:sticky top-0 z-100 hover:z-100">
         <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center dark:text-slate-400">
           <div className="title-font font-medium text-white mb-4 md:mb-0 flex flex-row" >
             <a href="#about" className="text-slate-900 dark:text-white ml-3 text-xl">
@@ -83,6 +83,7 @@ export default function Navbar() {
                   <li className="border-b border-gray-400 my-8 uppercase">
                     <a href="/portfolio">Portfolio</a>
                   </li>
+                  
                   <li className="border-b border-gray-400 my-8 uppercase">
                     <a href="/contact">Contact</a>
                   </li>
@@ -102,15 +103,14 @@ export default function Navbar() {
               </div>
             </section>
             <div className="DESKTOP-MENU  hidden lg:vissible space-x-8 lg:flex ">
+            <a href="/about" className={`${customItemClass}`}>About</a>
               <a href="#projects" className={`${customItemClass}`}>
                 Projects
               </a>
               <a href="#skills" className={`${customItemClass}`}>
                 Skills
               </a>
-              <a href="#testimonials" className={`${customItemClass}`}>
-                Testimonials
-              </a>
+              
 
               <a
                 href="#contact"

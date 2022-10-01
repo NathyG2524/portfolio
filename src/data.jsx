@@ -65,4 +65,4 @@ export const projects = [
     // },
 
   ];
-  export const skills = ['React', "Flask", "Django", "Python", "JavaScript"]
+  export const skills = ['React', "Flask", "Django", "Python", "JavaScript", "Nodejs", "HTML5", "CSS", "Tailwind", "Bootstrap", "MySql", "SQLAlchemy", "Postgress", "Git"]
