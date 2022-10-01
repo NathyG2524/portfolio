@@ -17,7 +17,7 @@ export default function Contact() {
   };
   return (
     <section id="contact" className="relative">
-      <div className="container px-5 py-10 xl:mx-20 flex flex-wrap sm:flex-nowrap gap-4  sm:px-0 sm:mx-0 ">
+      <div className="container px-5 py-10  flex flex-wrap sm:flex-nowrap gap-12  sm:px-0 sm:mx-0 ">
         <div className="lg:w-1/2 md:w-1/2 sm:w-full bg-gray-900 rounded-lg overflow-hidden  md:p-10 md:m-10 flex flex-col  gap-4 justify-center relative lg:p-20 lg:mx-10 md:mx-10  p-5 sm:mx-0 ">
           
 
@@ -38,7 +38,7 @@ export default function Contact() {
             
             className="text-white bg-indigo-500 border-0 py-2 px-6 mx-2 focus:outline-none hover:bg-indigo-600 rounded text-lg">
             Open Resume         </button></a>
-            <a href="https://drive.google.com/file/d/16gza4C4q89_RyVOLB_85HRnXFTXnKhcs/view?usp=sharing" download="Natnael_Girma_Resume.pdf"><button
+            <a href="https://drive.google.com/uc?export=download&id=16gza4C4q89_RyVOLB_85HRnXFTXnKhcs" download="Natnael_Girma_Resume.pdf"><button
             
             className="text-white bg-indigo-500 border-0 py-2 px-6  mx-2 focus:outline-none hover:bg-indigo-600 rounded text-lg mt-2">
             Download Pdf         </button></a>
@@ -95,7 +95,8 @@ export default function Contact() {
         <form ref={form} onSubmit={sendEmail}
           netlify
           name="contact"
-          className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8  lg:m-0 lg:px-0">
+          className="lg:w-1/3 md:w-1/2 flex flex-col justify-center
+           w-full md:py-10 mt-8  lg:m-0 mx-0">
           <h2 className="text-slate-400 sm:text-4xl text-3xl mb-1 font-medium title-font">
             Hire Me
           </ h2> 
