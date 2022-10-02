@@ -81,7 +81,7 @@ export default function Navbar() {
                     <a href="#about">About</a>
                   </li>
                   <li className="border-b border-gray-400 my-8 uppercase">
-                    <a href="#portfolio">Portfolio</a>
+                    <a href="#projects">Projects</a>
                   </li>
                   
                   <li className="border-b border-gray-400 my-8 uppercase">
