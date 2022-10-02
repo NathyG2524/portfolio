@@ -34,11 +34,11 @@ export default function Contact() {
               
 
               
-                <a href="https://drive.google.com/file/d/16gza4C4q89_RyVOLB_85HRnXFTXnKhcs/view?usp=sharing" target="_blank"><button
+                <a href="https://drive.google.com/file/d/1clSBZdRzjNSaf7UglJU6wlck7eltuoYh/view?usp=sharing" target="_blank"><button
             
             className="text-white bg-indigo-500 border-0 py-2 px-6 mx-2 focus:outline-none hover:bg-indigo-600 rounded text-lg">
             Open Resume         </button></a>
-            <a href="https://drive.google.com/uc?export=download&id=16gza4C4q89_RyVOLB_85HRnXFTXnKhcs" download="Natnael_Girma_Resume.pdf"><button
+            <a href="https://drive.google.com/uc?export=download&id=1clSBZdRzjNSaf7UglJU6wlck7eltuoYh" download="Natnael_Girma_Resume.pdf"><button
             
             className="text-white bg-indigo-500 border-0 py-2 px-6  mx-2 focus:outline-none hover:bg-indigo-600 rounded text-lg mt-2">
             Download Pdf         </button></a>
