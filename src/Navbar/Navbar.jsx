@@ -78,17 +78,17 @@ export default function Navbar() {
                 </div>
                 <ul className="MENU-LINK-MOBILE-OPEN flex flex-col items-center justify-between min-h-[250px] ">
                   <li className="border-b border-gray-400 my-8 uppercase dark:text-gray-300">
-                    <a href="/about">About</a>
+                    <a href="#about">About</a>
                   </li>
                   <li className="border-b border-gray-400 my-8 uppercase">
-                    <a href="/portfolio">Portfolio</a>
+                    <a href="#portfolio">Portfolio</a>
                   </li>
                   
                   <li className="border-b border-gray-400 my-8 uppercase">
-                    <a href="/contact">Contact</a>
+                    <a href="#contact">Contact</a>
                   </li>
                   <li className="border-b border-gray-400 my-8 uppercase">
-                    <a href="/skills">Skills</a>
+                    <a href="#skills">Skills</a>
                   </li>
                   <li>
                     <button type='button' onClick={handleThemeSwith} className={`${customItemClass} `}>
@@ -103,7 +103,7 @@ export default function Navbar() {
               </div>
             </section>
             <div className="DESKTOP-MENU  hidden lg:vissible space-x-8 lg:flex ">
-            <a href="/about" className={`${customItemClass}`}>About</a>
+            <a href="#about" className={`${customItemClass}`}>About</a>
               <a href="#projects" className={`${customItemClass}`}>
                 Projects
               </a>
